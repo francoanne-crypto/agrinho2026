@@ -1,16 +1,71 @@
-header{
-    background-color: darkolivegreen;
-    color: white;
-}
+/* Corpo da página */
 body {
     text-align: center;
     font-family: Arial, sans-serif;
+    background-color: #E6F2E6; /* verde claro */
+    color: #4B2E2E; /* marrom escuro */
+    margin: 0;
+    padding: 20px;
+    transition: all 0.5s ease; /* transição suave para cores */
 }
 
+/* Títulos */
+h1 {
+    color: #35654D; /* verde intenso */
+    font-size: 2.5em;
+}
+
+h2 {
+    color: #4B2E2E; /* marrom escuro */
+    font-size: 1.8em;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+/* Parágrafos */
+p {
+    line-height: 1.7;
+    font-size: 1.1em;
+    max-width: 800px;
+    margin: 0 auto 40px auto;
+    text-align: justify;
+}
+
+/* Imagens */
 img {
     width: 60%;
     max-width: 800px;
     height: auto;
     display: block;
-    margin: 20px auto;
+    margin: 20px auto 40px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Botão de contraste */
+button {
+    background-color: #4B2E2E; /* marrom escuro */
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    margin-bottom: 25px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #35654D; /* verde escuro */
+}
+
+/* Modo contraste */
+.contraste {
+    background-color: #5A2D0C; /* marrom quente */
+    color: white;
+}
+
+.contraste h1,
+.contraste h2 {
+    color: white;
 }
